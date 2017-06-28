@@ -1,0 +1,14 @@
+{
+  "name": "grodno-gov-renting",
+  "version": "0.0.1",
+  "description": "Visualization of an open data of premises rented by Grodno government",
+  "main": "index.js",
+  "repository": "grodno-city/grodno-gov-renting",
+  "license": "MIT",
+  "scripts": {
+    "run-back": "cd back && yarn start",
+    "postinstall": "cd back && yarn install",
+    "deploy": "echo 'Nothing to deploy yet ;)'; exit 1"
+  },
+  "devDependencies": {}
+}
