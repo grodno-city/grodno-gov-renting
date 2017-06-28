@@ -6,6 +6,7 @@
   "repository": "grodno-city/grodno-gov-renting",
   "license": "MIT",
   "scripts": {
+    "test": "cd back && yarn test",
     "run-back": "cd back && yarn start",
     "postinstall": "cd back && yarn install",
     "deploy": "echo 'Nothing to deploy yet ;)'; exit 1"
