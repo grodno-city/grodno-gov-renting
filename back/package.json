@@ -1,22 +1,12 @@
 {
-  "name": "grodno-gov-renting-back",
+  "name": "grodno-gov-renting-backend",
   "version": "0.0.1",
-  "description": "Backend part of grodno-gov-renting",
-  "main": "app.js",
+  "description": "grodno-gov-renting backend part",
+  "main": "index.js",
   "repository": "grodno-city/grodno-gov-renting",
-  "author": "Dima Pavlovsky",
-  "license": "MIT",
   "scripts": {
-    "start": "micro app.js",
-    "test": "yarn lint",
-    "lint": "standard --verbose | snazzy"
+    "test": "cd parser && yarn test"
   },
-  "dependencies": {
-    "@grodno-city/grodno-gov-renting-scraper": "^0.0.2",
-    "micro": "^7.3.3"
-  },
-  "devDependencies": {
-    "snazzy": "^7.0.0",
-    "standard": "^10.0.2"
-  }
+  "author": "Dima Pavlovsky",
+  "license": "MIT"
 }
