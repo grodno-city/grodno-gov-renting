@@ -1,0 +1,12 @@
+{
+  "name": "grodno-gov-renting-backend",
+  "version": "0.0.1",
+  "description": "grodno-gov-renting backend part",
+  "main": "index.js",
+  "repository": "grodno-city/grodno-gov-renting",
+  "scripts": {
+    "test": "cd parser && yarn test"
+  },
+  "author": "Dima Pavlovsky",
+  "license": "MIT"
+}
